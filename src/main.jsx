@@ -8,7 +8,8 @@ import { RouterProvider } from "react-router/dom";
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div>Calling from react router</div>
+    element: <div>Calling <i>from</i> <b> React Router</b> </div>
+
   }
 ])
 
