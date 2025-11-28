@@ -8,6 +8,7 @@ const Users = () => {
     return (
         <div>
             <h2>This is Users page</h2>
+            <h4>This is from react router</h4>
            <div>
                 {
                     users.map(user =><User key={user.id}  user={user}></User>)

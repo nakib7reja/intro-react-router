@@ -6,6 +6,7 @@ const User2 = ({UserPromise}) => {
     return (
         <div>
            <h2>This is User2</h2>
+           <h4>This is from react</h4>
         </div>
     );
 };
